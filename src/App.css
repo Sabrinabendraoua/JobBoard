@@ -23,9 +23,9 @@ h2 {
   margin: 0 auto;
 }
 .job-bloc {
+  background-color: pink;
   flex-shrink: 0;
   width: calc((930px - 30px) / 3);
-  border: solid red 3px;
   height: 300px;
   padding: 50px;
   display: flex;
@@ -43,18 +43,18 @@ h2 {
   background-color: rgb(178, 177, 177);
   height: 40px;
 }
-.border-red {
-  border: solid red 2px;
+.red {
+  border: solid red 3px;
 }
-.border-green {
-  border: solid green 2px;
+.green {
+  border: solid green 3px;
 }
-.border-yellow {
-  border: solid yellow 2px;
+.yellow {
+  border: solid yellow 3px;
 }
-.border-blue {
-  border: solid blue 2px;
+.blue {
+  border: solid blue 3px;
 }
-.border-pink {
-  border: solid pink 2px;
+.pink {
+  border: solid pink 3px;
 }

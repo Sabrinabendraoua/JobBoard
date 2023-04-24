@@ -1,7 +1,8 @@
 const Job = (props) => {
+  console.log(props);
   return (
     <>
-      <div className="job-bloc border-pink ">
+      <div className="job-bloc green">
         <h2>{props.title}</h2>
 
         <div className="contract-country-city">

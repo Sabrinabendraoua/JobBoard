@@ -1,7 +1,7 @@
 const Job = (props) => {
   return (
     <>
-      <div className="job-bloc">
+      <div className="job-bloc border-pink ">
         <h2>{props.title}</h2>
 
         <div className="contract-country-city">

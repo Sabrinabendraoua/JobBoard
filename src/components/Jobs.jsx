@@ -8,7 +8,6 @@ const Jobs = () => {
         contractType="CDI - "
         country="Australie - "
         city="Sydney"
-        className="border-color"
       />
       <Job
         title="Agent de Sécurité - Pantin"

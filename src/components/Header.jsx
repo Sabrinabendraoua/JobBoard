@@ -1,5 +1,11 @@
+import Title from "./Title";
+
 const Hearder = (props) => {
-  return <header>{props.name}</header>;
+  return (
+    <header>
+      <Title />
+    </header>
+  );
 };
 
 export default Hearder;

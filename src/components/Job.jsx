@@ -2,7 +2,7 @@ const Job = (props) => {
   console.log(props);
   return (
     <>
-      <div className="job-bloc green">
+      <div className="job-bloc" style={{ color: props.color }}>
         <h2>{props.title}</h2>
         <div className="contract-country-city">
           <p>{props.contractType}</p>

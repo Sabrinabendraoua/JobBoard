@@ -1,3 +1,10 @@
+header,
+footer,
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header {
   background-color: black;
   height: 60px;
@@ -5,22 +12,15 @@ header {
   font-size: 1.5em;
   font-weight: bold;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 h2 {
   font-size: 1.3em;
 }
-.jobs {
-  display: flex;
+main {
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   padding: 40px 0;
   max-width: 1280px;
-  margin: 0 auto;
 }
 .job-bloc {
   background-color: pink;
@@ -37,9 +37,6 @@ h2 {
   border: solid red 1px;
 }
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(178, 177, 177);
   height: 40px;
 }

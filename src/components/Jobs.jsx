@@ -2,9 +2,8 @@ import Job from "./Job";
 
 const Jobs = () => {
   return (
-    <div className="jobs">
+    <main>
       <Job
-        className={"red"}
         title={"Full Time Sales Associate - Sydney Boutique"}
         contractType={"CDI - "}
         country={"Australie - "}
@@ -58,7 +57,7 @@ const Jobs = () => {
         country={"France - "}
         city={"Pantin"}
       />
-    </div>
+    </main>
   );
 };
 

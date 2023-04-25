@@ -1,7 +1,5 @@
-import Title from "./Title";
-
-const Hearder = () => {
-  return <Title name="The Job Board" />;
+const Hearder = (props) => {
+  return <header>{props.name}</header>;
 };
 
 export default Hearder;

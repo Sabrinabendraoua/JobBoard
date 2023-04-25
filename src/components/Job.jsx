@@ -3,8 +3,9 @@ const Job = (props) => {
   return (
     <>
       <div className="job-bloc green">
-        <h2>{props.title}</h2>
+        {/*props.color changer le green en dynamique */}
 
+        <h2>{props.title}</h2>
         <div className="contract-country-city">
           <p>{props.contractType}</p>
           <p>{props.country}</p>

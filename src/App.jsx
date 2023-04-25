@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <Header />
+      <Header name="Job Board" />
       <Jobs />
       <Footer text="Made with React at Le Reacteur By Nono" />
     </>

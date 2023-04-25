@@ -1,4 +1,4 @@
-h1 {
+header {
   background-color: black;
   height: 60px;
   color: white;
@@ -36,7 +36,7 @@ h2 {
   display: flex;
   border: solid red 1px;
 }
-.footer {
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
